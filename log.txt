@@ -1,0 +1,33 @@
+desserts
+パトカー
+パタトクカシーー
+['Now', 'I', 'need', 'a', 'drink', 'alcoholic', 'of', 'course', 'after', 'the', 'heavy', 'lectures', 'involving', 'quantum', 'mechanics']
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+{'Hi': 0, 'H': 1, 'Li': 2, 'Be': 3, 'Bo': 4, 'C': 16, 'N': 9, 'O': 7, 'F': 8, 'Na': 10, 'Mi': 11, 'Al': 12, 'Si': 13, 'Pe': 14, 'S': 15, 'Ar': 17, 'Ki': 18}
+IamanNLPer
+(['Ia', 'am', 'ma', 'an', 'nN', 'NL', 'LP', 'Pe', 'er'], [['I', 'am'], ['am', 'an'], ['an', 'NLPer']])
+paraparaparadise
+paragraph
+("和集合は{'se', 'pa', 'ar', 'di', 'gr', 'ag', 'is', 'ad', 'ph', 'ap', 'ra'}", "積集合は{'ra', 'ar', 'ap', 'pa'}", "差集合は{'se', 'di', 'ag', 'is', 'ad', 'gr', 'ph'}", 'XはTrueです', 'YはFalseです')
+12時の気温は22.4
+I 21997219109 GOD FATHER 219100219101219115219117
+I am GOD FATHER desu
+I c'uondlt bvieele that I cloud aallucty unstnedard what I was radieng : the peamneonhl power of the haumn mind 
