@@ -32,8 +32,8 @@ def p4():
     s = "Now I need a drink, alcoholic of course, after the heavy lectures involving quantum mechanics."
     vocab = ""
     vocab_l = []
-    for i in s:
-        if i == " ":
+    for j, i in enumerate(s):
+        if i == " " or (j == len(s) - 1):
             vocab_l.append(vocab)
             vocab = ""
         elif i == "," or i == ".":
@@ -66,23 +66,38 @@ def p5():
 
     return vocab_dic
 
-def p6(s , scale):
+
+def p6(s, scale):
     vocab = ""
     vocab_l = []
-    s_bigram=[]
-    v_bigram=[]
-    for i in range(len(s)):
-        for n in scale:
-            s_bi = s[i:i+n-1]
+    s_bigram = []
+    v_bigram = []
+    s1 = s.replace(" ", "")
+    print(s1)
 
-        # 単語リスト生成
+    for i in range(len(s1) - 1):
+        s_bigram.append(s1[i:i + scale])
+
+    for j, i in enumerate(s):
         if i == " ":
             vocab_l.append(vocab)
             vocab = ""
+        elif (j == len(s) - 1):
+            if i == "," or i == "." or i ==" ":
+                vocab_l.append(vocab)
+            else:
+                vocab += i
+                vocab_l.append(vocab)
         elif i == "," or i == ".":
             continue
         else:
             vocab += i
+
+
+    for i in range(len(vocab_l) - scale + 1):
+        v_bigram.append(vocab_l[i:i + scale])
+
+    return s_bigram, v_bigram
 
 
 
@@ -92,3 +107,4 @@ if __name__ == "__main__":
     print(p3())
     print(p4())
     print(p5())
+    print(p6("I am an NLPer", 2))
